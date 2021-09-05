@@ -1,0 +1,247 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+
+/*==================== BASE ====================*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-family:'Montserrat', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*==================== LAYOUT ====================*/
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+  background-color: #C19AA8;
+  z-index: 100;
+}
+/*==================== NAV ====================*/
+.nav{
+  max-width: 968px;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+}
+.nav__toggle{
+  cursor: pointer;
+}
+
+.uil-bars:before {
+  color: white;
+}
+
+@media screen and (max-width: 767px){
+  .nav__menu{
+    position: fixed;
+    bottom: 101%;
+    left: 0;
+    width: 100%;
+    padding: 1rem .5rem 1rem;
+    box-shadow:0px 4px 0 rgba(0, 0, 0, 0.250);
+    border-radius:  0 0 .6rem .6rem;
+    transition: .5s;
+  }
+}
+
+.nav__list{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.nav__link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: .8rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav__link:hover{
+  color: #573b45;
+}
+
+.nav__icon{
+  font-size: 1.2rem;
+}
+
+/* show menu */
+.show-menu{
+  bottom: 75%;
+  background-color: #9E7785;
+}
+
+.logo{
+  height: 1.8rem;
+}
+/*==================== HOME ====================*/
+
+  @media screen and (max-width: 750px){
+    .home{
+    height: 42rem;
+    row-gap: 1rem;
+    }
+  }
+
+  .home__data{
+    align-self: center;
+    padding-top: 15rem;
+    padding-inline-start: .8rem;
+  }
+
+  .home__title{
+    font-weight: 600;
+  }
+
+  .home__subtitle{
+    color: var(--first-color);
+    font-weight: normal;
+  }
+
+  .home__img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 415px;
+    padding-block-end: 5rem;
+    border-radius: 100px;
+  }
+  @media screen and (max-width: 870px){
+    .home__img{
+      width: 350px;
+      padding-block-end: 8rem;
+    }
+  }
+
+  @media screen and (max-width: 825px){
+    .home__img{
+      width: 300px;
+      padding-block-end: 12rem;
+    }
+    .home__title{
+        font-size: 2rem;
+    }
+    .home__data{
+        padding-top: 13rem;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .home__img{
+      padding-block-end: 12rem;
+    }
+    .home__data{
+        padding-top: 13rem;
+    }
+  }
+
+  @media screen and (max-width: 690px){
+    .home__img{
+      width: 280px;
+      padding-block-end: 13rem;
+    }
+    .home__title{
+        font-size: 1.8rem;
+    }
+    .home__data{
+        padding-top: 13rem;
+    }
+  }
+
+    @media screen and (max-width: 630px){
+    .home__img{
+      width: 280px;
+      padding-block-end: 13rem;
+    }
+    .home__title{
+        font-size: 1.5rem;
+    }
+    .home__data{
+        padding-top: 14rem;
+    }
+  }
+
+  @media screen and (max-width: 570px){
+    .home__img{
+      width: 210px;
+      padding-block-end: 19rem;
+    }
+    .home__title{
+        font-size: 2rem;
+    }
+    .home__data{
+        padding-top: 9rem;
+    }
+  }
+
+/*==================== ABOUT ====================*/
+
+/*==================== CUSTOMS ====================*/
+
+
+/*==================== INSPO's ====================*/
+
+
+/*==================== SERVICES ====================*/
+
+
+/*==================== FOOTER ====================*/
+
+
+/*==================== MEDIA QUERIES ====================*/
+
+@media screen and (min-width: 766px){
+  .header{
+    top: 0;
+    bottom: initial;
+  }
+  
+  .header{
+    padding: 0 1rem;
+  }
+
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+    column-gap: 1rem;
+  }
+  .nav__icon, .nav__close, .nav__toggle{
+    display: none;
+
+  }
+
+  .nav__list{
+    display: flex;
+    column-gap: 2rem;
+    background-color: #c19aa8;
+  }
+
+  .nav__menu{
+    margin-left: auto;
+  }
+}

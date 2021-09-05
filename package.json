@@ -1,0 +1,23 @@
+{
+  "name": "byvir",
+  "version": "1.0.0",
+  "description": "2da etapa (programacion de la pagina web)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroReverendo/MakeUp-BYVIR.git"
+  },
+  "keywords": [
+    "web",
+    "design"
+  ],
+  "author": "Pedro & Nehuen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PedroReverendo/MakeUp-BYVIR/issues"
+  },
+  "homepage": "https://github.com/PedroReverendo/MakeUp-BYVIR#readme"
+}
