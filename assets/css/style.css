@@ -132,7 +132,6 @@ img{
     row-gap: 1rem;
     }
   }
-
   .home__data{
     align-self: center;
     padding-top: 7rem;
@@ -160,6 +159,11 @@ img{
     width: 230px;
     padding-block-end: 19rem;
     border-radius: 100px;
+  }
+  @media screen and (max-width: 380px){
+    .home__img{
+      padding-block-end: 27rem;
+    }
   }
 /* /==================== ABOUT ====================/ */
   .separator-line-div{
@@ -229,7 +233,7 @@ img{
   }
 /* /==================== CUSTOMS ====================/ */
 /* /==================== mines ====================/ */
-.image__overlay {
+/* .image__overlay {
   position: absolute;
   top: 7px;
   left: 25px;
@@ -269,13 +273,13 @@ img{
   font-size: 1rem;
   font-weight: 400;
   padding-inline-start: 6px;
-}
+} */
 /* /==================== monserrat ====================/ */
 /* /==================== reppeto ====================/ */
 /* /==================== blazer ====================/ */
 /* /==================== agus villa ====================/ */
 /* /==================== marti munos ====================/ */
-.image__overlay__munos{
+/* .image__overlay__munos{
   position: absolute;
   top: 432px;
   left: 195px;
@@ -313,11 +317,9 @@ img{
 .image__description__3_munos {
   font-size: 1rem;
   font-weight: 400;
-}
+} */
 /* /==================== rubia remera negra ====================/ */
 /* /==================== makeupbyvir ====================/ */
-
-
 .custom_section_2{
   height: 40rem;
 }
