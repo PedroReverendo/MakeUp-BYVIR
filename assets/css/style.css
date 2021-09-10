@@ -11,7 +11,10 @@
 html{
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
-  background-color: #f1e7e9;
+  
+}
+.html-home {
+  background-color: #FFF3ED;
 }
 
 ul{
@@ -45,32 +48,35 @@ img{
   align-items: center;
 }
 /* /==================== NAV ====================/ */
-.a{
-  padding: 0.2rem;
-}
 .nav{
   max-width: 968px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem 0 1rem;
+  height: 50px;position: relative;
+  
 }
 
 .hambuerguesa{
+  position: relative;
   height: .8rem;
-  padding-inline-start: 9rem;
+  left: 130px;
 }
 .nav__toggle{
   cursor: pointer;
 }
 .logo-png{
+  height: 30px;
   position: relative;
   top: 3px;
-  right: 5px;
+  left: 10px;
 }
 
 .uil-bars:before {
   color: white;
+  position: relative;
+  left: 180px;
 }
 
 @media screen and (max-width: 767px){
@@ -83,6 +89,7 @@ img{
     box-shadow:0px 4px 0 rgba(0, 0, 0, 0.250);
     border-radius:  0 0 .6rem .6rem;
     transition: .5s;
+    
   }
 }
 
@@ -115,7 +122,12 @@ img{
 }
 
 .logo{
-  height: 3rem;
+  height: 30px;
+  /* position: relative;
+  bottom: 3px;
+  right: 32px; */
+  padding-inline-start: 1rem;
+  
 }
 /* /==================== HOME ====================/ */
 
@@ -137,6 +149,7 @@ img{
     font-weight: 600;
     line-height: 37px;
     font-size: 2.2rem;
+    
   }
 
   .home__subtitle{
@@ -156,7 +169,7 @@ img{
 /* /==================== ABOUT ====================/ */
   .separator-line-div{
     position: relative;
-    bottom: 19.6rem;
+    bottom: 19.8rem;
   }
   .separator-line {
     size: 1rem;
@@ -174,7 +187,7 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     padding: 10px;
-    font-weight: bolder;
+    font-weight: 500;
   }
   .about-me-text {
     font-size: 16.5px;
@@ -191,7 +204,7 @@ img{
   }
   .button-contact{
     background-color:#C096C7;
-    font-weight:bolder;
+    font-weight:500;
     color: white;
     padding: 10px;
     border-radius: 22px;
@@ -201,7 +214,7 @@ img{
   }
   .button-services{
     background-color:#D6A1BD;
-    font-weight:bolder;
+    font-weight:500;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -220,6 +233,96 @@ img{
     bottom: 16rem;
   }
 /* /==================== CUSTOMS ====================/ */
+/* /==================== mines ====================/ */
+.image__overlay {
+  position: absolute;
+  top: 7px;
+  left: 25px;
+  width: 9.7rem;
+  height: 12.4rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 2rem;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.image__description__2 {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-inline-start: 6px;
+}
+/* /==================== monserrat ====================/ */
+/* /==================== reppeto ====================/ */
+/* /==================== blazer ====================/ */
+/* /==================== agus villa ====================/ */
+/* /==================== marti munos ====================/ */
+.image__overlay__munos{
+  position: absolute;
+  top: 432px;
+  left: 195px;
+  width: 9.7rem;
+  height: 12.3rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 2rem;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+.image__overlay__munos > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay__munos:hover {
+  opacity: 1;
+}
+
+.image__overlay__munos:hover > * {
+  transform: translateY(0);
+}
+.image__overlay--primary {
+  background: hsla(0, 0%, 24%, 0.404)
+}
+.image__description__2_munos {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-inline-start: 38px;
+}
+.image__description__3_munos {
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* /==================== rubia remera negra ====================/ */
+/* /==================== makeupbyvir ====================/ */
+
+
 .custom_section_2{
   height: 40rem;
 }
@@ -227,7 +330,7 @@ img{
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   padding: 10px;
-  font-weight: bolder;
+  font-weight: 500;
 }
 .customs-title-div {
   display: grid;
@@ -253,7 +356,7 @@ img{
 display: grid;
 justify-content: center;
 position: relative;
-bottom: 265px;
+bottom: 255px;
 }
 .see-more-ig a p{
 color: black;
@@ -265,7 +368,7 @@ font-weight: bold;
 width: 20px;
 height: 20px;
 position: relative;
-bottom: 18px;
+bottom: 21px;
 left: 165px;
 }
 
@@ -276,29 +379,31 @@ left: 165px;
   width: 366px;margin: 0 auto;
   position: relative;
   bottom: 4rem;
-  width: 100px;
+  width: 200px;
 }
-.line{
-  height: .1rem;
-}
+
 .section__title{
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding-bottom: 5rem;
+  padding-bottom: 75px;
   padding-block-start: 1rem;
+  font-weight: 500;
+
 }
 
 .section__subtitle{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 1rem;
-  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom:20px ;
+  font-weight: 400;
 }
 .carousel{
   overflow: hidden;
+  position: relative;
+  bottom: 60px;
 }
 .discover__card {
   position: relative;
@@ -350,34 +455,39 @@ left: 165px;
     --smaller-font-size: .813rem;
   }
 }
-.background__services{
-  background-color: #C789AA;
+.separator-line-div-6{
+position: relative;
+bottom: 60px;
 }
 .container {
   max-width: 968px;
   margin-left: 1rem;
   margin-right: 1rem;
+  
 }
-.section__title__services{
+.section_title_services{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-block-start: 4rem;
+  position: relative;
+  bottom: 40px;
 }
 
 .separator-line_services{
   size: 1rem;
   color: #C9C9C9;
-  width: 150px;
+  width: 200px;
   margin: 0 auto;
   position: relative;
-  bottom: -0.3rem;
+  bottom: 20px;
 }
 .section__1{
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: larger;
+  bottom: 10px;
+  position: relative;
 }
 
 .section__2{
@@ -396,6 +506,8 @@ left: 165px;
 .accordion__container {
   display: grid;
   row-gap: .75rem;
+  position: relative;
+  bottom: 70px;
   /* padding: 2rem 1rem;
   background-color: var(--container-color);
   border-radius: .5rem;
@@ -403,19 +515,13 @@ left: 165px;
 }
 
 .accordion__title {
-  font-size: .8rem;
+  font-size: .813rem;
   color: var(--title-color);
   font-weight: 400;
   margin-top: .15rem;
   transition: .2s;
 }
-.accordion__title__social {
-  font-size: .7rem;
-  color: var(--title-color);
-  font-weight: 400;
-  margin-top: .15rem;
-  transition: .2s;
-}
+
 .accordion__header {
   display: flex;
   align-items: center;
@@ -513,16 +619,40 @@ left: 165px;
   transition: all .25s ease;
 }
 
-/*Rotate icon and add font weight to titles*/
+/* /Rotate icon and add font weight to titles/ */
 .accordion-open .accordion__icon {
   transform: rotate(45deg);
 }
 
 .accordion-open .accordion__title {
   font-weight: 600;
+ 
 }
+.see-more-pint{
+  display: grid;
+  justify-content: center;
+  position: relative;
+  ;top: 10px;
+  padding: 10px;
+  }
+  .see-more-pint a p{
+  color: black;
+  position: relative;
+  right: 10px;
+  font-weight: bold;
+  }
+  .see-more-pint a img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  bottom: 22px;
+  left: 163px;
+  }
+  .swiper-3d{
+    perspective: 350px;
+  }
 
-/*=============== MEDIA QUERIES ===============*/
+/* /=============== MEDIA QUERIES ===============/ */
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .accordion__container {
@@ -555,6 +685,13 @@ left: 165px;
 .footer{
   background-color:#5B3B58;
   color: white;
+  position: relative;
+}
+.footer-contact{
+  background-color:#5B3B58;
+  color: white;
+  position: relative;
+  top: 120px;
 }
 .none-footer{
   background-color: #5B3B58;
@@ -577,8 +714,9 @@ height: 200px;
   display: grid;
   justify-items: center;
   position: relative;
-  bottom: 90px;
-  right: 55px;
+  bottom: 100px;
+  left: 80px;
+  width: 70px;
 }
 .button-contact-footer{
   background-color:#C096C7;
@@ -592,9 +730,10 @@ height: 200px;
 }
 .dudes-footer {
 position: relative;
-bottom: 100px;
+bottom: 110px;
 text-align: center;
-right: 55px;
+width: 100px;
+left: 82px;
 }
 .logo-footer{
 width: 50px;
@@ -604,10 +743,12 @@ padding: 10px;
 }
 .problems-footer{
   position: relative;
-  bottom: 160px;
+  bottom: 180px;
   display: grid;
   justify-items: right; 
   padding-right: 10px;
+  width: 100px;
+  left: 212px;
   
 }
 #problem-question {
@@ -634,13 +775,17 @@ padding: 10px;
   left: 10px;
   width: 60px;
 }
-.byvir-footer{
-  width: auto;
-  height: 20px;
+.byvir-footer-div{
+  height: auto;
   display: grid;
   justify-content: center;
-  margin-bottom: 15px;
-  
+  margin-bottom: 15px;position: relative;
+  bottom: 5px;
+}
+.byvir-footer{
+  width: 100px;
+  height: auto;
+
 }
 .footer-copyright{
   color: whitesmoke;
@@ -650,20 +795,75 @@ padding: 10px;
 }
 #separator-line-div-4{
   position: relative;
-  bottom: 300px;
+  bottom: 330px;
   left: 65px;
   height: 200px;
   width: 1px;
 }
 #separator-line-div-5{
   position: relative;
-  bottom: 500px;
+  bottom: 530px;
   left: 198px;
   height: 200px;
   width: 1px;
 }
 
+/* /==================== CONTACT ME ====================/ */
 
+.contact-container-title{
+text-align: center;
+position: relative;
+top: 90px;
+padding-bottom: 20px;
+}
+.contact-container-title h1{
+  padding-bottom: 20px;
+  line-height: 37px;
+  font-size: 35px;
+  }
+  .contact-container-title p{
+    font-size: 18px;
+    }
+.contact-container-whatsapp{
+text-align: center;
+position: relative;
+top: 70px;
+margin-top: 27px;
+font-size: 18px;
+}
+.contact-container-whatsapp div{
+display: inline-flex;
+position: relative;
+top: 5px;
+margin-bottom: 20px;
+}
+
+.contact-container-instagram{
+  text-align: center;
+  position: relative;
+  top: 70px;
+  margin-top: 27px;
+  font-size: 18px;
+}
+.contact-container-instagram div{
+  display: inline-flex;
+  position: relative;
+  top: 5px;
+  margin-bottom: 20px;
+  }
+.contact-container-mail{
+  text-align: center;
+  position: relative;
+  top: 70px;
+  margin-top: 27px;
+  font-size: 18px;
+}
+.contact-container-mail div{
+  display: inline-flex;
+  position: relative;
+  top: 15px;
+  margin-bottom: 20px;
+  }
 /* /==================== MEDIA QUERIES ====================/ */
 
 @media screen and (min-width: 766px){
