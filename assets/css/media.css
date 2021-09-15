@@ -186,6 +186,10 @@
 }
 /* ===================LAPTOP===================*/
 @media screen and (min-width: 1024px) {
+    .logo{
+        height: 46px;
+        bottom: 10px;
+    }
     .html-home{
         width: 64rem;
     }
@@ -200,29 +204,105 @@
         padding-inline-start: 10rem;
         padding-block-start: 10rem;
     }
+    .customs-title{
+        font-size: 40px;
+    }
+    .photo-customs{
+        width: 239px;
+        height: 306px;
+    }
     .custom_section_2{
-        height: 19rem;
+        height: 27rem;
     }
     .separator-line{
         width: 1000px;
+    }
+    .section__title{
+        font-size: 40px;
+    }
+    .section__subtitle{
+        font-size: 30px;
+    }
+    .see-more-ig a p{
+        font-size: 20px;
+    }
+    .see-more-ig a img{
+        left: 213px;
+        bottom: 25px;
     }
     .swiper-3d{
         perspective: 650px ;
      }
      .discover__img{
-         width: 30rem;
+        width: 35rem;
      }
      .discover__card .swiper-slide{
-         width: 150rem;
+        width: 140rem;
      }
      .discover__card{
-         width: 420px;
+        width: 400px;
      }
      .accordion{
-         height: 84vh;
+        height: 84vh;
      }
 }
 /* ===================LAPTOP L===================*/
 @media screen and (min-width: 1440px) {
+    .html-home{
+        width: 94rem;
+    }
+    .header{
+        height: 80px;
+    }
+    .nav__link{
+        font-size: 1.2rem;
+    }
+    .logo-png{
+        left: -132px;
+    }
+    .nav__menu{
+        scroll-padding-inline-start: 15rem;
+    }
+    .home__img {
+        width: 32rem;
+        left: 50rem;
+    }
+    .home__title {
+        font-weight: 600;
+        line-height: 100px;
+        font-size: 6rem;
+    }
+    .home__subtitle{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .about-me-title{
+        font-size: 45px;
+    }
+    .about-me-text{
+        font-size: 30px;
+    }
+    .photo-customs {
+        width: 349px;
+        height: 437px;
+    }
+    .custom_section_2 {
+        height: 43rem;
+    }
+    .swiper-3d{
+        perspective: 750px ;
+     }
+     .discover__img{
+        width: 25rem;
+     }
+     .discover__card .swiper-slide{
+        width: 640rem;
+     }
+     .discover__card{
+        width: 410px;
+     }
+     .accordion{
+        height: 150vh;
+     }
 
 }
