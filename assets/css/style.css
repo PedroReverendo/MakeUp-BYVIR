@@ -125,18 +125,13 @@ img{
    */
 }
 /* /==================== HOME ====================/ */
-
-  @media screen and (max-width: 750px){
-    .home{
-    height: 42rem;
-    row-gap: 1rem;
-    }
-  }
+.home{
+  height: 3rem;
+}
   .home__data{
     align-self: center;
     padding-top: 7rem;
     padding-inline-start: .8rem;
-
   }
 
   .home__title{
@@ -153,17 +148,12 @@ img{
   }
 
   .home__img{
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     width: 230px;
     padding-block-end: 19rem;
     border-radius: 100px;
-  }
-  @media screen and (max-width: 380px){
-    .home__img{
-      padding-block-end: 27rem;
-    }
   }
 /* /==================== ABOUT ====================/ */
   .separator-line-div{
@@ -183,7 +173,7 @@ img{
     text-align: center;
   }
   .about-me-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     padding: 10px;
     font-weight: 500;
@@ -193,7 +183,7 @@ img{
   }
          /* BUTTONS CONTACT AND SERVICES */
   .buttons{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     display: grid;
     justify-items: center;
@@ -269,7 +259,7 @@ img{
   font-size: 1rem;
   font-weight: 400;
 }
-.image__description__2 {
+.image_description_2 {
   font-size: 1rem;
   font-weight: 400;
   padding-inline-start: 6px;
@@ -279,7 +269,7 @@ img{
 /* /==================== blazer ====================/ */
 /* /==================== agus villa ====================/ */
 /* /==================== marti munos ====================/ */
-/* .image__overlay__munos{
+/* .image_overlay_munos{
   position: absolute;
   top: 432px;
   left: 195px;
@@ -294,27 +284,27 @@ img{
   transition: opacity 0.35s;
 }
 
-.image__overlay__munos > * {
+.image_overlay_munos > * {
   transform: translateY(20px);
   transition: transform 0.25s;
 }
 
-.image__overlay__munos:hover {
+.image_overlay_munos:hover {
   opacity: 1;
 }
 
-.image__overlay__munos:hover > * {
+.image_overlay_munos:hover > * {
   transform: translateY(0);
 }
 .image__overlay--primary {
   background: hsla(0, 0%, 24%, 0.404)
 }
-.image__description__2_munos {
+.image_description_2_munos {
   font-size: 1rem;
   font-weight: 400;
   padding-inline-start: 38px;
 }
-.image__description__3_munos {
+.image_description_3_munos {
   font-size: 1rem;
   font-weight: 400;
 } */
@@ -324,7 +314,7 @@ img{
   height: 40rem;
 }
 .customs-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   padding: 10px;
   font-weight: 500;
@@ -540,6 +530,13 @@ bottom: 60px;
   padding: 1.25rem 1.25rem 1.25rem 1rem;
   cursor: pointer;
 }
+.sociall{
+  display: flex;
+  align-items: center;
+  column-gap: 10.1rem;
+  padding: 1.25rem 1.25rem 1.25rem 1rem;
+  cursor: pointer;
+}
 .clases{
   display: flex;
   align-items: center;
@@ -583,7 +580,7 @@ bottom: 60px;
 }
 
 .accordion__item:nth-child(1)::after {
-  background-color: #c19aa8ab;
+  background-color: #a85774;
 }
 
 .accordion__item:nth-child(2) {
@@ -591,7 +588,7 @@ bottom: 60px;
 }
 
 .accordion__item:nth-child(2)::after {
-  background-color: #c19aa8ab;
+  background-color: #a85774;
 }
 
 .accordion__item:nth-child(3) {
@@ -599,7 +596,7 @@ bottom: 60px;
 }
 
 .accordion__item:nth-child(3)::after {
-  background-color: #c19aa8ab;
+  background-color: #a85774;
 }
 
 .accordion__item:nth-child(4) {
@@ -607,7 +604,7 @@ bottom: 60px;
 }
 
 .accordion__item:nth-child(4)::after {
-  background-color: #c19aa8ab;
+  background-color: #a85774;
 }
 
 .accordion__item:nth-child(5) {
@@ -615,7 +612,7 @@ bottom: 60px;
 }
 
 .accordion__item:nth-child(5)::after {
-  background-color: #c19aa8ab;
+  background-color: #a85774;
 }
 
 .accordion__content {
@@ -715,7 +712,7 @@ height: 200px;
 
 }
 .buttons-footer{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   display: grid;
   justify-items: center;
@@ -755,7 +752,6 @@ padding: 10px;
   padding-right: 10px;
   width: 100px;
   left: 212px;
-  
 }
 #problem-question {
   font-size: 14px;
@@ -764,14 +760,14 @@ padding: 10px;
 #soporte{
   font-size: 12px;
   position: relative;
-  bottom: 37px;
+  bottom: 54px;
 }
 
 #mail-img {
   position: relative;
   width: auto;
-  height: 35px;
-  bottom: 36px;
+  height: 50px;
+  bottom: 48px;
 }
 .social-footer{
   display: flex;
@@ -801,14 +797,14 @@ padding: 10px;
 }
 #separator-line-div-4{
   position: relative;
-  bottom: 330px;
+  bottom: 345px;
   left: 65px;
   height: 200px;
   width: 1px;
 }
 #separator-line-div-5{
   position: relative;
-  bottom: 530px;
+  bottom: 545px;
   left: 198px;
   height: 200px;
   width: 1px;
@@ -875,34 +871,3 @@ margin-bottom: 20px;
   top: 15px;
   margin-bottom: 20px;
   }
-/* /==================== MEDIA QUERIES ====================/ */
-
-@media screen and (min-width: 766px){
-  .header{
-    top: 0;
-    bottom: initial;
-  }
-  
-  .header{
-    padding: 0 1rem;
-  }
-
-  .nav{
-    height: calc(var(--header-height) + 1.5rem);
-    column-gap: 1rem;
-  }
-  .nav_icon, .navclose, .nav_toggle{
-    display: none;
-
-  }
-
-  .nav__list{
-    display: flex;
-    column-gap: 2rem;
-    background-color: #c19aa8;
-  }
-
-  .nav__menu{
-    margin-left: auto;
-  }
-}

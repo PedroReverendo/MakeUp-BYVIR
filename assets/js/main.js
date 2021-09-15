@@ -1,4 +1,4 @@
-/*==================== MENU SHOW Y HIDDEN ====================*/
+// /==================== MENU SHOW Y HIDDEN ====================/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -13,7 +13,7 @@ const showMenu = (toggleId, navId) =>{
   }
   showMenu('nav-toggle','nav-menu')
   
-  /*==================== REMOVE MENU MOBILE ====================*/
+//   /==================== REMOVE MENU MOBILE ====================/
   const navLink = document.querySelectorAll('.nav__link')
   
   function linkAction(){
@@ -23,7 +23,7 @@ const showMenu = (toggleId, navId) =>{
   }
   navLink.forEach(n => n.addEventListener('click', linkAction))
   
-/*==================== SWIPER DISCOVER ====================*/
+// /==================== SWIPER DISCOVER ====================/
 let swiper = new Swiper(".discover__container", {
     effect: "coverflow",
     grabCursor: true,
@@ -36,7 +36,7 @@ let swiper = new Swiper(".discover__container", {
     },
 })
 
-/*=============== ACCORDION ===============*/
+// /=============== ACCORDION ===============/
 const accordionItems = document.querySelectorAll('.accordion__item')
 
 // 1. Selecionar cada item

@@ -1,0 +1,207 @@
+/* ===================MOBILE S===================*/
+@media screen and (min-width: 320px) {
+    .html-home{
+        width: 26rem;
+    }
+    .html-hom{
+        width: 20rem;
+    }
+    .home__img{
+       padding-block-end: 19.5rem; 
+       left: 10rem;
+    }
+    .accordion{
+        height: 146vh;
+    }
+    .sociall{
+        column-gap: 7.1rem;
+    }
+    .section_title_services{
+        bottom: 135px;
+    }
+    .separator-line_services{
+        bottom: 130px;
+    }
+    .footer_componentes{
+        height: 200px;
+        padding-inline-start: 1.5rem;
+    }
+    /* #soporte{
+        font-size: 9px;
+    }
+    .problems-footer{
+        width: 318px;
+        left: 0;
+    }
+    #problem-question{
+        padding-inline-start: 16rem;
+        font-size: 10px;
+        padding-block-end: .5rem;
+        height: 2.5rem;
+    }
+    #separator-line-div-5{
+        left: 193px;
+    } */
+}
+/* ===================MOBILE M===================*/
+@media screen and (min-width: 375px) {
+    .html-home{
+        width: 26rem;
+    }
+    .home__img{
+        padding-block-end: 19.5rem; 
+        left: 11rem;
+    }
+     .accordion{
+        height: 160vh;
+    }
+    .sociall{
+        column-gap: 7.1rem;
+    }
+    .section_title_services{
+        bottom: 154px;
+    }
+    .separator-line_services{
+        bottom: 150px;
+    }
+    .footer_componentes{
+        height: 200px;
+    }
+}
+/* ===================MOBILE L===================*/
+@media screen and (min-width: 425px) {
+    .html-home{
+        width: 27rem;
+    }
+    .sociall{
+        column-gap: 7.1rem;
+    }
+    .home__img{
+        padding-block-end: 19.5rem; 
+        left: 11rem;
+    }
+    .separator-line{
+        width: 420px;
+    }
+    .accordion{
+        height: 138vh;
+    }
+    .section_title_services{
+        bottom: 120px;
+    }
+    .separator-line_services{
+        bottom: 115px;
+    }
+}
+/* ===================TABLET===================*/
+@media screen and (min-width: 768px) {
+    header {
+        height: 70px;
+    }
+    .uil-bars:before{
+        color: #c19aa8;
+    }
+    .nav__menu{
+        padding-inline-start: 11rem;
+    }
+    .nav__list{
+        display: flex;
+        column-gap: 3.5rem;
+        background-color: #c19aa8;
+      }
+    .html-home{
+        width: 48rem;
+    }
+    .home__img{
+        width: 20rem;
+        padding-block-end: 19.5rem;
+        left: 24rem;
+    }
+    .home__title {
+        font-weight: 600;
+        line-height: 60px;
+        font-size: 4rem;
+    }
+    .home__subtitle{
+        padding-block-start: 1rem;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .home__data{
+        padding-inline-start: 3rem;
+    }
+    .separator-line{
+        width: 730px;
+    }
+    .about-me-title{
+        font-size: 40px;
+    }
+    .about-me-text{
+        font-size: 25px;
+    }
+    .button-contact{
+        font-size: 20px;
+    }
+    .button-services{
+        font-size: 20px;
+    }
+    .custom_section_2{
+        height: 35rem;
+    }
+    .photo-customs{
+        width: 200px;
+        height: 250px;
+    }
+    .swiper-3d{
+       perspective: 550px ;
+    }
+    .discover__img{
+        width: 20rem;
+    }
+    .discover__card .swiper-slide{
+        width: 100rem;
+    }
+    .discover__card{
+        width: 320px;
+    }
+    .accordion{
+        height: 166vh;
+    }
+    .footer_componentes{
+        height: 200px;
+        padding-inline-start: 15rem;
+    }
+    .social-footer{
+        left: -80px;
+    }
+    #separator-line-div-4{
+        left: 20px;
+    }
+    #separator-line-div-5{
+        left: 250px;
+    }
+    .problems-footer{
+        left: 300px;
+    }
+}
+/* ===================LAPTOP===================*/
+@media screen and (max-width: 1024px) {
+    .html-home{
+        width: 64rem;
+    }
+    .header{
+        height: 90px;
+    }
+    .home__img{
+        width: 25rem;
+        left: 33rem;
+    }
+    .home__data{
+        padding-inline-start: 10rem;
+        padding-block-start: 10rem;
+    }
+}
+/* ===================LAPTOP L===================*/
+@media screen and (max-width: 1440px) {
+
+}
