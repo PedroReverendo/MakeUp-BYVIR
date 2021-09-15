@@ -98,11 +98,16 @@
     header {
         height: 70px;
     }
+    .nav__icon {
+        color: #c19aa8;
+        font-size: 1.2rem;
+    }
     .uil-bars:before{
         color: #c19aa8;
     }
     .nav__menu{
         padding-inline-start: 11rem;
+        padding-block-end: 2rem;
     }
     .nav__list{
         display: flex;
@@ -196,6 +201,13 @@
     .header{
         height: 98px;
     }
+    .nav__icon {
+        color: #c19aa8;
+        font-size: 1.2rem;
+    }
+    .nav__menu{
+        padding-block-end: 2rem;
+    }
     .home__img{
         width: 25rem;
         left: 33rem;
@@ -254,6 +266,10 @@
     .header{
         height: 80px;
     }
+    .nav__icon {
+        color: #c19aa8;
+        font-size: 1.2rem;
+    }
     .nav__link{
         font-size: 1.2rem;
     }
@@ -262,6 +278,7 @@
     }
     .nav__menu{
         scroll-padding-inline-start: 15rem;
+        padding-block-end: 2rem;
     }
     .home__img {
         width: 32rem;

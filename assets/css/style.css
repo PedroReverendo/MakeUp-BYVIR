@@ -104,6 +104,7 @@ img{
 
 .nav__link:hover{
   color: #573b45;
+  transition: .2s;
 }
 
 .nav__icon{
@@ -199,7 +200,17 @@ img{
     border-radius: 22px;
     margin-bottom: 8px;
     font-size: 18px;
-    
+    box-shadow:0px 4px 5px 0px rgb(0 0 0 / 52%);
+  }
+  .button-contact:hover{
+    color:#ffffff;
+    background-color:#573b45 ;
+    transition: .2s;
+  }
+  .button-services:hover{
+    color:#ffffff;
+    background-color:#573b45 ;
+    transition: .2s;
   }
   .button-services{
     background-color:#D6A1BD;
@@ -211,6 +222,7 @@ img{
     padding-right: 26px;
     border-radius: 22px;
     font-size: 18px;
+    box-shadow:0px 4px 5px 0px rgb(0 0 0 / 52%);
   }
   .separator-line-div-2 {
     position: relative;
@@ -350,6 +362,10 @@ color: black;
 position: relative;
 right: 20px;
 font-weight: bold;
+}
+.see-more-ig:hover{
+  color: #573b45;
+  transition: .2s;
 }
 .see-more-ig a img {
 width: 20px;
