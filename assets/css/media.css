@@ -185,12 +185,12 @@
     }
 }
 /* ===================LAPTOP===================*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .html-home{
         width: 64rem;
     }
     .header{
-        height: 90px;
+        height: 98px;
     }
     .home__img{
         width: 25rem;
@@ -200,8 +200,29 @@
         padding-inline-start: 10rem;
         padding-block-start: 10rem;
     }
+    .custom_section_2{
+        height: 19rem;
+    }
+    .separator-line{
+        width: 1000px;
+    }
+    .swiper-3d{
+        perspective: 650px ;
+     }
+     .discover__img{
+         width: 30rem;
+     }
+     .discover__card .swiper-slide{
+         width: 150rem;
+     }
+     .discover__card{
+         width: 420px;
+     }
+     .accordion{
+         height: 84vh;
+     }
 }
 /* ===================LAPTOP L===================*/
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
 
 }
