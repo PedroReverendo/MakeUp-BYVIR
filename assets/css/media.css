@@ -1,14 +1,20 @@
 /* ===================MOBILE S===================*/
 @media screen and (min-width: 320px) {
     .html-home{
-        width: auto;
+        width: 24.5rem;
     }
     .html-hom{
-        width: auto;
+        width: 24.5rem;
     }
     .home__img{
        padding-block-end: 19.5rem; 
        left: 10rem;
+    }
+    .home__title{
+        width: 10px;
+    }
+    .home__subtitle{
+        width: 10px;
     }
     .accordion{
         height: 146vh;
@@ -46,14 +52,20 @@
 /* ===================MOBILE M===================*/
 @media screen and (min-width: 375px) {
     .html-home{
-        width: auto;
+        width: 25rem;
     }
     .html-hom{
-        width: auto;
+        width: 25rem;
     }
     .home__img{
         padding-block-end: 19.5rem; 
         left: 11rem;
+    }
+    .home__title{
+        width: 10px;
+    }
+    .home__subtitle{
+        width: 10px;
     }
      .accordion{
         height: 160vh;
@@ -85,6 +97,12 @@
     .home__img{
         padding-block-end: 19.5rem; 
         left: 11rem;
+    }
+    .home__title{
+        width: 10px;
+    }
+    .home__subtitle{
+        width: 10px;
     }
     .separator-line{
         width: 420px;
@@ -135,11 +153,13 @@
         font-weight: 600;
         line-height: 60px;
         font-size: 4rem;
+        width: 10px;
     }
     .home__subtitle{
         padding-block-start: 1rem;
         font-size: 40px;
         line-height: 40px;
+        width: 10px;
     }
     .home__data{
         padding-inline-start: 3rem;
@@ -224,12 +244,18 @@
         width: 25rem;
         left: 33rem;
     }
+    .home__title{
+        width: 10px;
+    }
+    .home__subtitle{
+        width: 10px;
+    }
     .home__data{
         padding-inline-start: 10rem;
         padding-block-start: 10rem;
     }
     .customs-title{
-        font-size: 40px;
+        font-size: 35px;
     }
     .photo-customs{
         width: 239px;
@@ -242,7 +268,7 @@
         width: 1000px;
     }
     .section__title{
-        font-size: 40px;
+        font-size: 35px;
     }
     .section__subtitle{
         font-size: 30px;
@@ -303,13 +329,15 @@
         font-weight: 600;
         line-height: 100px;
         font-size: 6rem;
+        width: 500px;
     }
     .home__subtitle{
         font-size: 60px;
         line-height: 60px;
+        width: 200px;
     }
     .about-me-title{
-        font-size: 45px;
+        font-size: 40px;
     }
     .about-me-text{
         font-size: 30px;
@@ -336,18 +364,53 @@
      .accordion{
         height: 150vh;
      }
+     .separator-line-div-4{
+         width: 500px;
+     }
+     .section_title_services {
+        bottom: 120px;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .separator-line_services{
+        width: 500px;
 
+    }
+    .section__1 {
+    font-size: 25px;
+    font-weight: 400;
+    }
+    .section__2 {
+        font-size: 25px;
+    font-weight: 400;
+    }
+    .accordion__container {
+        width: 550px;
+        justify-self: center;
+        border-radius: .75rem;
+        padding: 0;
+    }
+    .accordion__icon {
+        position: relative;
+        left: 430px;
+    }
 }
 /* ===================LAPTOP NEHUEN===================*/
 @media screen and (min-width: 1920px) {
+    .accordion__icon {
+        position: relative;
+         left: 430px;
+    }
     .html-home{
         width: auto;
     }
     .html-hom{
         width: auto;
     }
-    .home__img{
-        left: 75rem;
+    .home__img {
+        left: 70rem;
+        width: 50rem;
+        top: 3px;
     }
     .home__data{
         padding-inline-start: 29rem;
@@ -355,5 +418,99 @@
     }
     .footer_componentes{
         scroll-padding-inline-start: 50rem;
+    }
+
+    .see-more-pint a img{
+        left: 163px;
+        bottom: 22px;
+    }
+    .separator-line{
+        width: 1650px;
+    }
+    .buttons {
+        display: flow-root;
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
+    .button-contact{
+        margin: 25px;
+    }
+    .button-services{
+        margin: 25px;
+    }
+    .logo{
+        position: relative;
+        right: 370px;
+    }
+    .nav__menu{
+        position: relative;
+        left: 430px;
+    }
+    .home__title {
+        font-weight: 700;
+        line-height: 140px;
+        font-size: 9.5rem;
+        position: relative;
+        right: 300px;
+        width: 1000px;
+        top: 100px;
+    }
+    .home__subtitle {
+        font-size: 73px;
+        line-height: 80px;
+        right: 295px;
+        position: relative;
+        width: 1000px;
+        top: 110px;
+    }
+    .accordion__container {
+        width: 850px;
+    }
+    .accordion__icon {
+        position: relative;
+        left: 350px;
+    }
+    .accordion{
+        height: 97.5vh;
+    }
+    .customs {
+        width: 1700px;
+    }
+    .swiper-3d{
+        perspective: 750px ;
+     }
+     .discover__img{
+        width: 30rem;
+     }
+     .discover__card .swiper-slide{
+        width: 640rem;
+     }
+     .discover__card{
+        width: 500px;
+     }
+     .custom_section_2{
+        height: 43rem;
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .see-more-ig a p {
+        font-size: 22px;
+        position: relative;
+        right: 35px;
+    }
+    .see-more-ig a img {
+        left: 220px;
+    }
+    .see-more-pint a p{
+        font-size: 22px;
+        position: relative;
+        right: 35px;
+    }
+    .see-more-pint a img{
+        bottom: 26px;
+        left: 200px;
+    
+        
     }
 }

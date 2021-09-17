@@ -73,3 +73,17 @@ const toggleItem = (item) =>{
         item.classList.add('accordion-open')
     }
 }
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
+
+/*SCROLL main*/
+sr.reveal('.home__title',{});
+sr.reveal('.home__subtitle',{});
+sr.reveal('.img',{delay: 200}); 
+sr.reveal('.home__img',{delay: 400}); 
+sr.reveal('.home__social-icon',{ interval: 200}); 
