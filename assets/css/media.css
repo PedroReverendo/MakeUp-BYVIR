@@ -7,8 +7,8 @@
         width: 24.5rem;
     }
     .home__img{
-       padding-block-end: 19.5rem; 
-       left: 10rem;
+        padding-block-end: 310px; 
+        left: 9.5rem;
     }
     .home__title{
         width: 10px;
@@ -16,8 +16,15 @@
     .home__subtitle{
         width: 10px;
     }
+    .text-certificado{
+        font-size: 10px;
+    }
     .accordion{
-        height: 84vh;
+        height: 120vh;
+    }
+    .accordion__header{
+        display: flex;
+        justify-content: space-between;
     }
     .sociall{
         column-gap: 7.1rem;
@@ -31,6 +38,9 @@
     .footer_componentes{
         height: 200px;
         padding-inline-start: 1.5rem;
+    }
+    .accordion__header{
+        column-gap: 6.1rem;
     }
     /* #soporte{
         font-size: 9px;
@@ -48,18 +58,33 @@
     #separator-line-div-5{
         left: 193px;
     } */
+    .nav__iconn{
+        color: white;
+    }
+    .containerr{
+        margin-left: -20rem;
+    }
+    .logoo-png{
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: 357px;
+    }
+    .contact__homee{
+        padding-inline-start: 29rem;
+    }
 }
 /* ===================MOBILE M===================*/
 @media screen and (min-width: 375px) {
     .html-home{
-        width: 25rem;
+        width: 25.4rem;
     }
     .html-hom{
-        width: 25rem;
+        width: 25.4rem;
     }
     .home__img{
-        padding-block-end: 19.5rem; 
-        left: 11rem;
+        padding-block-end: 310px; 
+        left: 9.5rem;
     }
     .home__title{
         width: 10px;
@@ -67,8 +92,11 @@
     .home__subtitle{
         width: 10px;
     }
+    .text-certificado{
+        font-size: 10px;
+    }
      .accordion{
-        height: 87vh;
+        height: 120vh;
     }
     .sociall{
         column-gap: 7.1rem;
@@ -81,6 +109,21 @@
     }
     .footer_componentes{
         height: 200px;
+    }
+    .nav__iconn{
+        color: white;
+    }
+    .containerr{
+        margin-left: -20rem;
+    }
+    .logoo-png{
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: 357px;
+    }
+    .contact__homee{
+        padding-inline-start: 32rem;
     }
 }
 /* ===================MOBILE L===================*/
@@ -95,8 +138,8 @@
         column-gap: 7.1rem;
     }
     .home__img{
-        padding-block-end: 19.5rem; 
-        left: 11rem;
+        padding-block-end: 310px; 
+        left: 10.5rem;
     }
     .home__title{
         width: 10px;
@@ -104,17 +147,35 @@
     .home__subtitle{
         width: 10px;
     }
+    .text-certificado{
+        font-size: 10px;
+    }
     .separator-line{
         width: 420px;
     }
     .accordion{
-        height: 83vh;
+        height: 100vh;
     }
     .section_title_services{
         bottom: 120px;
     }
     .separator-line_services{
         bottom: 115px;
+    }
+    .nav__iconn{
+        color: white;
+    }
+    .containerr{
+        margin-left: -20rem;
+    }
+    .logoo-png{
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: 357px;
+    }
+    .contact__homee{
+        padding-inline-start: 32rem;
     }
 }
 /* ===================TABLET===================*/
@@ -146,7 +207,7 @@
     }
     .home__img{
         width: 20rem;
-        padding-block-end: 19.5rem;
+        padding-block-end: 310px;
         left: 24rem;
     }
     .home__title {
@@ -164,6 +225,11 @@
     .home__data{
         padding-inline-start: 3rem;
     }
+    .button-servicess{
+        padding-top: 13px;
+        padding-inline-start: 23px;
+        padding-inline-end: 23px;
+    }
     .separator-line{
         width: 730px;
     }
@@ -171,6 +237,9 @@
         font-size: 40px;
     }
     .about-me-text{
+        font-size: 25px;
+    }
+    .text-certificado{
         font-size: 25px;
     }
     .button-contact{
@@ -187,7 +256,7 @@
         height: 250px;
     }
     .swiper-3d{
-       perspective: 550px ;
+       perspective: 70rem ;
     }
     .discover__img{
         width: 20rem;
@@ -199,11 +268,11 @@
         width: 320px;
     }
     .accordion{
-        height: 166vh;
+        height: 110vh;
     }
     .footer_componentes{
         height: 200px;
-        padding-inline-start: 15rem;
+        padding-inline-start: 13rem;
     }
     .social-footer{
         left: -80px;
@@ -216,6 +285,21 @@
     }
     .problems-footer{
         left: 300px;
+    }
+    .logoo-png{
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: 4px;
+    }
+    .nav__iconn{
+        color: white;
+    }
+    .containerr{
+        margin-left: 4rem;
+    }
+    .contact__homee{
+        padding-inline-start: 25rem;
     }
 }
 /* ===================LAPTOP===================*/
@@ -281,7 +365,7 @@
         bottom: 25px;
     }
     .swiper-3d{
-        perspective: 650px ;
+        perspective: 80rem ;
      }
      .discover__img{
         width: 35rem;
@@ -293,8 +377,17 @@
         width: 400px;
      }
      .accordion{
-        height: 84vh;
+        height: 105vh;
      }
+     .footer_componentes{
+        padding-inline-start: 20rem;
+     }
+     .contact__homee{
+        padding-inline-start: 33rem;
+    }
+    .contact-container-title{
+        padding-block-start: 3rem;
+    }
 }
 /* ===================LAPTOP L===================*/
 @media screen and (min-width: 1440px) {
@@ -322,24 +415,31 @@
         padding-block-end: 2rem;
     }
     .home__img {
-        width: 32rem;
-        left: 50rem;
+        width: 28rem;
+        left: 57rem;
     }
     .home__title {
         font-weight: 600;
         line-height: 100px;
         font-size: 6rem;
-        width: 500px;
+        width: 1000px;
     }
     .home__subtitle{
         font-size: 60px;
         line-height: 60px;
-        width: 200px;
+        width: 1000px;
+    }
+    .home__data{
+        padding-inline-start: 7rem;
+        padding-block-start: 12rem;
     }
     .about-me-title{
         font-size: 40px;
     }
     .about-me-text{
+        font-size: 30px;
+    }
+    .text-certificado{
         font-size: 30px;
     }
     .photo-customs {
@@ -350,7 +450,7 @@
         height: 43rem;
     }
     .swiper-3d{
-        perspective: 750px ;
+        perspective: 100rem ;
      }
      .discover__img{
         width: 25rem;
@@ -364,8 +464,14 @@
      .accordion{
         height: 150vh;
      }
+     .separator-line{
+        width: 76rem;
+     }
      .separator-line-div-4{
-         width: 500px;
+        width: 500px;
+     }
+     .separator-line-div{
+        bottom: 22.8rem;
      }
      .section_title_services {
         bottom: 120px;
@@ -382,7 +488,7 @@
     }
     .section__2 {
         font-size: 25px;
-    font-weight: 400;
+        font-weight: 400;
     }
     .accordion__container {
         width: 550px;
@@ -390,17 +496,15 @@
         border-radius: .75rem;
         padding: 0;
     }
-    .accordion__icon {
-        position: relative;
-        left: 430px;
+    .containerr{
+        margin-left: 14rem;
+    }
+    .footer_componentes{
+        padding-inline-start: 35rem;
     }
 }
 /* ===================LAPTOP NEHUEN===================*/
 @media screen and (min-width: 1920px) {
-    .accordion__icon {
-        position: relative;
-         left: 430px;
-    }
     .html-home{
         width: auto;
     }
@@ -408,13 +512,16 @@
         width: auto;
     }
     .home__img {
-        left: 70rem;
-        width: 50rem;
-        top: 3px;
+        left: 75rem;
+        width: 40rem;
+        top: 21px;
     }
     .home__data{
         padding-inline-start: 29rem;
         padding-block-start: 12rem;
+    }
+    .button-servicess{
+        margin-inline-start: 1.4rem;
     }
     .footer_componentes{
         scroll-padding-inline-start: 50rem;
@@ -425,7 +532,10 @@
         bottom: 22px;
     }
     .separator-line{
-        width: 1650px;
+        width: 115rem;
+    }
+    .separator-line-div{
+        bottom: 21.5rem;
     }
     .buttons {
         display: flow-root;
@@ -440,11 +550,15 @@
     }
     .logo{
         position: relative;
-        right: 370px;
+        right: 250px;
+    }
+    .logo:hover{
+        transform: scale(1.1);
+        transition: .2s;
     }
     .nav__menu{
         position: relative;
-        left: 430px;
+        left: 320px;
     }
     .home__title {
         font-weight: 700;
@@ -466,10 +580,6 @@
     .accordion__container {
         width: 850px;
     }
-    .accordion__icon {
-        position: relative;
-        left: 350px;
-    }
     .accordion{
         height: 97.5vh;
     }
@@ -477,7 +587,7 @@
         width: 1700px;
     }
     .swiper-3d{
-        perspective: 750px ;
+        perspective: 100rem ;
      }
      .discover__img{
         width: 30rem;
@@ -510,7 +620,23 @@
     .see-more-pint a img{
         bottom: 26px;
         left: 200px;
-    
-        
+    }
+    .containerr{
+        margin-left: 50rem;
+    }
+    .logoo-png{
+        left: -338px;
+    }
+    .footer_componentes{
+        padding-inline-start: 54rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .footer_componentes{
+        padding-inline-start: 43rem;
+    }
+    .contact__homee{
+        padding-inline-start: 45rem;
     }
 }
