@@ -7,7 +7,7 @@
         width: 24.5rem;
     }
     .home__img{
-        padding-block-end: 310px; 
+        padding-block-end: 263px; 
         left: 9.5rem;
     }
     .home__title{
@@ -17,11 +17,11 @@
         width: 10px;
     }
     .text-certificado{
-        font-size: 10px;
+        font-size: 16.5px;
     }
     .accordion{
-        height: 120vh;
-    }
+        height: auto;
+     }
     .accordion__header{
         display: flex;
         justify-content: space-between;
@@ -61,18 +61,6 @@
     .nav__iconn{
         color: white;
     }
-    .containerr{
-        margin-left: -20rem;
-    }
-    .logoo-png{
-        height: 30px;
-        position: relative;
-        top: 3px;
-        left: 357px;
-    }
-    .contact__homee{
-        padding-inline-start: 29rem;
-    }
 }
 /* ===================MOBILE M===================*/
 @media screen and (min-width: 375px) {
@@ -83,7 +71,7 @@
         width: 25.4rem;
     }
     .home__img{
-        padding-block-end: 310px; 
+        padding-block-end: 263px; 
         left: 9.5rem;
     }
     .home__title{
@@ -93,11 +81,11 @@
         width: 10px;
     }
     .text-certificado{
-        font-size: 10px;
+        font-size: 16.5px;
     }
-     .accordion{
-        height: 120vh;
-    }
+    .accordion{
+        height: auto;
+     }
     .sociall{
         column-gap: 7.1rem;
     }
@@ -113,18 +101,6 @@
     .nav__iconn{
         color: white;
     }
-    .containerr{
-        margin-left: -20rem;
-    }
-    .logoo-png{
-        height: 30px;
-        position: relative;
-        top: 3px;
-        left: 357px;
-    }
-    .contact__homee{
-        padding-inline-start: 32rem;
-    }
 }
 /* ===================MOBILE L===================*/
 @media screen and (min-width: 425px) {
@@ -138,7 +114,7 @@
         column-gap: 7.1rem;
     }
     .home__img{
-        padding-block-end: 310px; 
+        padding-block-end: 261px;
         left: 10.5rem;
     }
     .home__title{
@@ -148,14 +124,14 @@
         width: 10px;
     }
     .text-certificado{
-        font-size: 10px;
+        font-size: 16.5px;
     }
     .separator-line{
         width: 420px;
     }
     .accordion{
-        height: 100vh;
-    }
+        height: auto;
+     }
     .section_title_services{
         bottom: 120px;
     }
@@ -164,18 +140,6 @@
     }
     .nav__iconn{
         color: white;
-    }
-    .containerr{
-        margin-left: -20rem;
-    }
-    .logoo-png{
-        height: 30px;
-        position: relative;
-        top: 3px;
-        left: 357px;
-    }
-    .contact__homee{
-        padding-inline-start: 32rem;
     }
 }
 /* ===================TABLET===================*/
@@ -207,7 +171,7 @@
     }
     .home__img{
         width: 20rem;
-        padding-block-end: 310px;
+        padding-block-end: 262px;
         left: 24rem;
     }
     .home__title {
@@ -268,8 +232,8 @@
         width: 320px;
     }
     .accordion{
-        height: 110vh;
-    }
+        height: auto;
+     }
     .footer_componentes{
         height: 200px;
         padding-inline-start: 13rem;
@@ -286,20 +250,8 @@
     .problems-footer{
         left: 300px;
     }
-    .logoo-png{
-        height: 30px;
-        position: relative;
-        top: 3px;
-        left: 4px;
-    }
     .nav__iconn{
         color: white;
-    }
-    .containerr{
-        margin-left: 4rem;
-    }
-    .contact__homee{
-        padding-inline-start: 25rem;
     }
 }
 /* ===================LAPTOP===================*/
@@ -326,7 +278,8 @@
     }
     .home__img{
         width: 25rem;
-        left: 33rem;
+        left: 44rem;
+        padding-block-start: 3rem;
     }
     .home__title{
         width: 10px;
@@ -377,14 +330,11 @@
         width: 400px;
      }
      .accordion{
-        height: 105vh;
+        height: auto;
      }
      .footer_componentes{
         padding-inline-start: 20rem;
      }
-     .contact__homee{
-        padding-inline-start: 33rem;
-    }
     .contact-container-title{
         padding-block-start: 3rem;
     }
@@ -417,6 +367,7 @@
     .home__img {
         width: 28rem;
         left: 57rem;
+        padding-block-end: 310px;
     }
     .home__title {
         font-weight: 600;
@@ -462,7 +413,7 @@
         width: 410px;
      }
      .accordion{
-        height: 150vh;
+        height: auto;
      }
      .separator-line{
         width: 76rem;
@@ -581,8 +532,8 @@
         width: 850px;
     }
     .accordion{
-        height: 97.5vh;
-    }
+        height: auto;
+     }
     .customs {
         width: 1700px;
     }
@@ -623,9 +574,6 @@
     }
     .containerr{
         margin-left: 50rem;
-    }
-    .logoo-png{
-        left: -338px;
     }
     .footer_componentes{
         padding-inline-start: 54rem;
