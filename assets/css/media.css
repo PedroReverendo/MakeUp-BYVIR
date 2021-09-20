@@ -1,20 +1,37 @@
 /* ===================MOBILE S===================*/
 @media screen and (min-width: 320px) {
     .html-home{
-        width: 24.5rem;
+        width: auto;
     }
     .html-hom{
         width: 24.5rem;
     }
     .home__img{
-        padding-block-end: 263px; 
-        left: 9.5rem;
+        padding-block-end: 261px; 
+        left: 41%;
+        width: 180px;
+        bottom: 20px;
     }
+    .logo{
+        right: 20px;
+        bottom: 0px;
+        top: 2px;
+    }
+    /* .uil-bars:before {
+        left: 125px;
+    } */
     .home__title{
         width: 10px;
+        font-size: 30px;
+        line-height: 30px;
+
     }
     .home__subtitle{
         width: 10px;
+        font-size: 18px;
+        line-height: 19px;
+        position: relative;
+        top: 3px;
     }
     .text-certificado{
         font-size: 16.5px;
@@ -25,6 +42,9 @@
     .accordion__header{
         display: flex;
         justify-content: space-between;
+    }
+    .separator-line-div{
+        bottom: 336px;
     }
     .sociall{
         column-gap: 7.1rem;
@@ -42,43 +62,142 @@
     .accordion__header{
         column-gap: 6.1rem;
     }
-    /* #soporte{
+    /* .soporte{
         font-size: 9px;
     }
     .problems-footer{
         width: 318px;
         left: 0;
     }
-    #problem-question{
+    .problem-question{
         padding-inline-start: 16rem;
         font-size: 10px;
         padding-block-end: .5rem;
         height: 2.5rem;
     }
-    #separator-line-div-5{
+    .separator-line-div-5{
         left: 193px;
     } */
     .nav__iconn{
         color: white;
     }
+    .separator-line{
+        width: 95%;
+    }
+    .separator-line-div-6{
+        position: relative;
+        bottom: 145px;
+    }
+    .section_title_services{
+        bottom: 127px;
+    }
+    .separator-line_services{
+        position: relative;
+        bottom: 110px;
+    }
+    .padding{
+        padding-block-end: 4.5rem;
+    }
+    .photo-customs {
+        width: 158px;
+        height: 200px;
+        overflow: hidden;
+        padding: 3px;
+    }
+    /* .mail-img{
+        display: none;
+    }
+    .soporte {
+        display: none;
+    }
+    .problem-question {
+        display: none;
+    }
+    .separator-line-div-5{
+        display: none;
+    } */
+    /* #separator-line-div-4{
+        bottom: 235px;
+        left: 110px;
+    } */
+    /* .dudes-footer{
+        left: 140px;
+    }
+    .buttons-footer{
+        left: 140px;
+    }
+    .social-footer{
+        left: 40px;
+    } */
+    .custom_section_2{
+        height: 36.5rem;
+    }
+    .see-more-pint {
+        top: 4px;
+    }
+    .separator-line-div-3 {
+        bottom: 16.5rem;
+    }
+    .footer_componentes{
+        right: 30px;
+        position: relative;
+    }
+    .buttons-footer{
+        left: 71px;
+    }
+    .dudes-footer{
+        left: 75px;
+    }
+    .separator-line-div-5{
+        left: 185px;
+    }
+    #separator-line-div-4 {
+        left: 62px;
+    }
+    .problems-footer{
+        left: 192px;
+    }
+    /* .mail-img{
+        height: ;
+    } */
+    .problem-question{
+        width: min-content;
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .soporte{
+        font-size: 10px;
+    }
 }
 /* ===================MOBILE M===================*/
 @media screen and (min-width: 375px) {
     .html-home{
-        width: 25.4rem;
+        width: auto;
     }
     .html-hom{
         width: 25.4rem;
     }
+    .logo {
+        bottom: 0px;
+        right: 20px;
+        top: 3px;
+    }
     .home__img{
-        padding-block-end: 263px; 
-        left: 9.5rem;
+        padding-block-end: 261px; 
+        left: 45%;
+        width: 200px;
     }
     .home__title{
         width: 10px;
+        font-size: 40px;
+        line-height: 40px;
     }
     .home__subtitle{
         width: 10px;
+        font-size: 24px;
+        line-height: 27px;
+        position: relative;
+        top: 6px;
     }
     .text-certificado{
         font-size: 16.5px;
@@ -90,24 +209,79 @@
         column-gap: 7.1rem;
     }
     .section_title_services{
-        bottom: 154px;
+        bottom: 122px;
     }
     .separator-line_services{
-        bottom: 150px;
+        bottom: 110px;
+    }
+    .separator-line-div-6{
+        bottom: 135px;
     }
     .footer_componentes{
         height: 200px;
+        position: relative;
+        right: 27px;
     }
     .nav__iconn{
         color: white;
     }
-}
+    .padding {
+        padding-block-end: 4rem;
+    }
+    /* .uil-bars:before {
+        left: 180px;
+    } */
+    /* .mail-img{
+        display: initial;
+    }
+    .soporte {
+        display: initial;
+    }
+    .problem-question {
+        display: initial;
+    }
+    .separator-line-div-5{
+        /* display: initial; */
+    /* } */
+    .footer_componentes{
+        right: 20px;
+        position: relative;
+        bottom: 8px;
+    }
+    .buttons-footer{
+        left: 71px;
+    }
+    .dudes-footer{
+        left: 75px;
+    }
+    .separator-line-div-5{
+        left: 185px;
+    }
+    #separator-line-div-4 {
+        left: 62px;
+    }
+    .problems-footer{
+        left: 192px;
+    }
+    /* .mail-img{
+        height: ;
+    } */
+    .problem-question{
+        width: max-content;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .soporte{
+        font-size: 13px;
+    }
+    
+} 
 /* ===================MOBILE L===================*/
 @media screen and (min-width: 425px) {
+    /* .uil-bars:before{
+        left: 210px;
+    } */
     .html-home{
-        width: auto;
-    }
-    .html-hom{
         width: auto;
     }
     .sociall{
@@ -115,13 +289,28 @@
     }
     .home__img{
         padding-block-end: 261px;
-        left: 10.5rem;
+        left: 44%;
+        width: 230px;
+
+    }
+    .logo {
+        position: relative;
+        right: 18px;
+        bottom: 0px;
+        top: 2px;
     }
     .home__title{
         width: 10px;
+        font-size: 45px;
+        position: relative;
+        top: px;
+        line-height: 45px;
     }
     .home__subtitle{
+        position: relative;
         width: 10px;
+        font-size: 27px;
+        top: 1px;
     }
     .text-certificado{
         font-size: 16.5px;
@@ -133,7 +322,7 @@
         height: auto;
      }
     .section_title_services{
-        bottom: 120px;
+        bottom: 140px;
     }
     .separator-line_services{
         bottom: 115px;
@@ -141,16 +330,32 @@
     .nav__iconn{
         color: white;
     }
+    .separator-line-div-6 {
+        bottom: 170px;
+    }
+    .padding{
+        padding-block-end: 7rem;
+    }
+    .footer_componentes{
+        right: 0px;
+        left: -13px;
+        position: relative;
+    }
+    
 }
 /* ===================TABLET===================*/
 @media screen and (min-width: 768px) {
     header {
         height: 70px;
     }
+    .html-home{
+        width: auto;
+    }
     .html-hom{
         width: auto;
     }
     .nav__icon {
+        top: .6rem;
         color: #c19aa8;
         font-size: 1.2rem;
     }
@@ -244,7 +449,7 @@
     #separator-line-div-4{
         left: 20px;
     }
-    #separator-line-div-5{
+    .separator-line-div-5{
         left: 250px;
     }
     .problems-footer{
@@ -253,12 +458,16 @@
     .nav__iconn{
         color: white;
     }
+    .padding{
+        padding-block-end: 7rem;
+    }
 }
 /* ===================LAPTOP===================*/
 @media screen and (min-width: 1024px) {
     .logo{
         height: 46px;
         bottom: 10px;
+        right: 20px;
     }
     .html-home{
         width: auto;
@@ -270,6 +479,7 @@
         height: 98px;
     }
     .nav__icon {
+        top: 1.2rem;
         color: #c19aa8;
         font-size: 1.2rem;
     }
@@ -278,7 +488,7 @@
     }
     .home__img{
         width: 25rem;
-        left: 44rem;
+        left: 58%;
         padding-block-start: 3rem;
     }
     .home__title{
@@ -317,6 +527,13 @@
         left: 213px;
         bottom: 25px;
     }
+    .see-more-pint a p{
+        font-size: 20px;
+    }
+    .see-more-pint a img {
+        left: 205px;
+        bottom: 24px;
+    }
     .swiper-3d{
         perspective: 80rem ;
      }
@@ -338,11 +555,20 @@
     .contact-container-title{
         padding-block-start: 3rem;
     }
+    .padding{
+        padding-block-end: 7rem;
+    }
+    .nav__link{
+        font-size: 22PX;
+    }
 }
 /* ===================LAPTOP L===================*/
 @media screen and (min-width: 1440px) {
     .html-home{
         width: auto;
+    }
+    .padding{
+        padding-block-end: 7rem;
     }
     .html-hom{
         width: auto;
@@ -351,6 +577,7 @@
         height: 80px;
     }
     .nav__icon {
+        top: 1rem;
         color: #c19aa8;
         font-size: 1.2rem;
     }
@@ -418,14 +645,14 @@
      .separator-line{
         width: 76rem;
      }
-     .separator-line-div-4{
+     #separator-line-div-4{
         width: 500px;
      }
      .separator-line-div{
         bottom: 22.8rem;
      }
      .section_title_services {
-        bottom: 120px;
+        bottom: 150px;
         font-size: 35px;
         font-weight: 500;
     }
@@ -453,9 +680,32 @@
     .footer_componentes{
         padding-inline-start: 35rem;
     }
+    .separator-line-div-6 {
+        bottom: 175px;
+    }
+    .see-more-ig a p {
+        font-size: 22px;
+        position: relative;
+        right: 35px;
+    }
+    .see-more-ig a img {
+        left: 220px;
+    }
+    .see-more-pint a p{
+        font-size: 22px;
+        position: relative;
+        right: 35px;
+    }
+    .see-more-pint a img{
+        bottom: 26px;
+        left: 200px;
+    }
 }
 /* ===================LAPTOP NEHUEN===================*/
 @media screen and (min-width: 1920px) {
+    .padding{
+        padding-block-end: 7rem;
+    }
     .html-home{
         width: auto;
     }
@@ -466,6 +716,11 @@
         left: 75rem;
         width: 40rem;
         top: 21px;
+    }
+    .nav__icon {
+        top: .6rem;
+        color: #c19aa8;
+        font-size: 1.2rem;
     }
     .home__data{
         padding-inline-start: 29rem;
@@ -501,7 +756,7 @@
     }
     .logo{
         position: relative;
-        right: 250px;
+        right: 480px;
     }
     .logo:hover{
         transform: scale(1.1);
@@ -509,7 +764,7 @@
     }
     .nav__menu{
         position: relative;
-        left: 320px;
+        left: 540px;
     }
     .home__title {
         font-weight: 700;
@@ -535,7 +790,8 @@
         height: auto;
      }
     .customs {
-        width: 1700px;
+        width: 75%;
+        left: 240px;
     }
     .swiper-3d{
         perspective: 100rem ;
@@ -577,14 +833,19 @@
     }
     .footer_componentes{
         padding-inline-start: 54rem;
+        position: relative;
+        bottom: 5px;
+        width: auto;
     }
 }
 
 @media screen and (min-width: 1800px) {
     .footer_componentes{
-        padding-inline-start: 43rem;
+        padding-inline-start: 70rem;
+        width: auto;
     }
     .contact__homee{
         padding-inline-start: 45rem;
+
     }
 }

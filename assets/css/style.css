@@ -41,10 +41,10 @@ img{
   position: fixed;
   background-color: #C19AA8;
   z-index: 100;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 .headerr{
   padding-inline: 4rem;
@@ -54,7 +54,7 @@ img{
   z-index: 100;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 /* /==================== NAV ====================/ */
@@ -95,7 +95,7 @@ img{
 .uil-bars:before {
   color: white;
   position: relative;
-  left: 180px;
+  /* left: 180px; */
 }
 
 @media screen and (max-width: 767px){
@@ -212,6 +212,8 @@ img{
   }
   .about-me-text {
     font-size: 16.5px;
+    width: 75%;
+    display: inline-block;
   }
          /* BUTTONS CONTACT AND SERVICES */
   .buttons{
@@ -552,7 +554,7 @@ bottom: 200px;
   height: auto;
 }
 .padding{
-  padding-block-end: 8rem;
+  padding-block-end: 7rem;
 }
 .accordion__container {
   display: grid;
@@ -674,6 +676,13 @@ bottom: 200px;
 }
 
 .accordion__item:nth-child(5)::after {
+  background-color: #a85774;
+}
+.accordion__item:nth-child(6) {
+  background-color: #FFF3ED;
+}
+
+.accordion__item:nth-child(6)::after {
   background-color: #a85774;
 }
 
@@ -814,17 +823,17 @@ padding: 10px;
   width: 100px;
   left: 212px;
 }
-#problem-question {
+.problem-question {
   font-size: 14px;
   top: 40px;
 }
-#soporte{
+.soporte{
   font-size: 12px;
   position: relative;
   bottom: 54px;
 }
 
-#mail-img {
+.mail-img {
   position: relative;
   width: auto;
   height: 50px;
@@ -863,7 +872,7 @@ padding: 10px;
   height: 200px;
   width: 1px;
 }
-#separator-line-div-5{
+.separator-line-div-5{
   position: relative;
   bottom: 545px;
   left: 198px;
